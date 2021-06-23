@@ -12,7 +12,6 @@ const allCards = async ()=>{
     return response.data.cards;
 }
 
-
 module.exports = {
     getCardById,
     allCards
